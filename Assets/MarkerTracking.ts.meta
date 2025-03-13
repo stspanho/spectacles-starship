@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/c802027b-b095-4bbc-acc6-feb6489346de>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1a684ba7-ef70-4395-aa5f-0e89527008ed
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1a684ba7-ef70-4395-aa5f-0e89527008ed
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bbb11fb8-7a80-4e4d-b47e-b5b02abf64c9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a4d55d9f-120c-43e8-9140-965638bb1a1e>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bbb11fb8-7a80-4e4d-b47e-b5b02abf64c9>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    markerTrackingComponent: false
+    objectWithTweens: false
+    rocket: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - markerTrackingComponent: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
+      rocket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectWithTweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.MarkerTrackingComponent markerTrackingComponent
+    - // @input SceneObject rocket
+    - // @input SceneObject objectWithTweens
