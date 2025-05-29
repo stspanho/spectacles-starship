@@ -1,0 +1,187 @@
+- !<AssetImportMetadata/4ff780e1-fc3d-4d35-9d3d-806de669a185>
+  ImportedAssetIds:
+    198ee5533845efe5: !<reference> d05ca096-4cf3-45e6-a03e-e67e67058d8b
+    3639359a0c3b5a12: !<reference> b1d08423-9b9c-473d-98f5-d1be4d06f9ac
+    4a3e924fad0e2f27: !<reference> 047ca79f-433c-4340-981b-d181f5be4022
+    608ccc0b3fa88c92: !<reference> 0445e5c0-8df1-4dd7-a968-2d82425ecf8f
+    66780cf3a4dcb2b8: !<reference> d47b79f3-7428-4d65-9f67-1090d7748973
+    96f664b015fcd573: !<reference> e3f37bf4-df1b-46b6-97b4-17aebfd06a12
+    Meshes/Catch_Arm_Left.001: !<reference> 87491487-3c3d-47ab-9be7-045dd06c9461
+    Meshes/Catch_Arm_Right.001: !<reference> a5ce8929-443a-4d5f-b1bd-0939cd20e7f4
+    Scene: !<reference> fb3cfceb-4742-4085-b23c-813e549321c9
+    d8c8a4051d9b2982: !<reference> 2e4c4161-5ef0-4156-8bdf-7c6adbe27e87
+    f7823ed8e3d3f631: !<reference> bc5a829f-bc47-442b-a45e-4df47b316c41
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> fb3cfceb-4742-4085-b23c-813e549321c9
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 80439d90-4d1d-4b7e-b3d3-193ae0c6d5af
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings/f35a7b69-6db3-4030-b95d-0069844feecc>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings/37dea631-1a0d-45ad-a614-66a14124cff5>
+    Presets:
+      None Compression: !<SingleCompressionSettings/f1a26802-d9fe-438a-9bfe-dffd835a86bc>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/07a845e0-fb68-4dff-b6be-59416c1f5db3>
+  PrefabRemaps:
+    []
+  Name: Catch_Arm_Left.001
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 87491487-3c3d-47ab-9be7-045dd06c9461
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/12f00aa9-76f9-4d07-863a-1b2b36e83ce6>
+  PackagePath: ""
+  objects:
+    - !<own> d8fd1784-8be6-4449-9665-4d79b314240e
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/14f6c444-247a-47ce-835e-d28675c7a2e6>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1f9aded3-bed2-447c-a035-da60ed47db24
+    - !<own> cb1c3aab-a7d1-48b2-8a0c-12d922caa892
+  Components:
+    - !<own> 7636970f-7f1d-48b3-976c-d153f82c699f
+- !<SceneObject/1f9aded3-bed2-447c-a035-da60ed47db24>
+  PrefabRemaps:
+    []
+  Name: Catch_Arm_Left
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 07a845e0-fb68-4dff-b6be-59416c1f5db3
+- !<SceneObject/4ab5500f-83de-4c1c-b806-0c52792b4b2e>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 14f6c444-247a-47ce-835e-d28675c7a2e6
+  Components:
+    []
+- !<AnimationPlayer/7636970f-7f1d-48b3-976c-d153f82c699f>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/80439d90-4d1d-4b7e-b3d3-193ae0c6d5af>
+  SourceRemaps:
+    - 0445e5c0-8df1-4dd7-a968-2d82425ecf8f: cb1c3aab-a7d1-48b2-8a0c-12d922caa892
+    - 047ca79f-433c-4340-981b-d181f5be4022: 4ab5500f-83de-4c1c-b806-0c52792b4b2e
+    - 2e4c4161-5ef0-4156-8bdf-7c6adbe27e87: 07a845e0-fb68-4dff-b6be-59416c1f5db3
+    - b1d08423-9b9c-473d-98f5-d1be4d06f9ac: 8d912871-236e-4b96-b8c7-51669154a23b
+    - bc5a829f-bc47-442b-a45e-4df47b316c41: 7636970f-7f1d-48b3-976c-d153f82c699f
+    - d05ca096-4cf3-45e6-a03e-e67e67058d8b: 1f9aded3-bed2-447c-a035-da60ed47db24
+    - d47b79f3-7428-4d65-9f67-1090d7748973: d8fd1784-8be6-4449-9665-4d79b314240e
+    - e3f37bf4-df1b-46b6-97b4-17aebfd06a12: 14f6c444-247a-47ce-835e-d28675c7a2e6
+    - fb3cfceb-4742-4085-b23c-813e549321c9: 12f00aa9-76f9-4d07-863a-1b2b36e83ce6
+  SourceState: !<own> 12f00aa9-76f9-4d07-863a-1b2b36e83ce6
+- !<RenderMeshVisual/8d912871-236e-4b96-b8c7-51669154a23b>
+  PrefabRemaps:
+    []
+  Name: Catch_Arm_Right.001
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> a5ce8929-443a-4d5f-b1bd-0939cd20e7f4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cb1c3aab-a7d1-48b2-8a0c-12d922caa892>
+  PrefabRemaps:
+    []
+  Name: Catch_Arm_Right
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8d912871-236e-4b96-b8c7-51669154a23b
+- !<SceneObject/d8fd1784-8be6-4449-9665-4d79b314240e>
+  PrefabRemaps:
+    []
+  Name: arms
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4ab5500f-83de-4c1c-b806-0c52792b4b2e
+  Components:
+    []

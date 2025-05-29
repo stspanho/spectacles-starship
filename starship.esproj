@@ -1,10 +1,10 @@
 studioVersion:
   major: 5
-  minor: 4
+  minor: 9
   patch: 1
-  build: 24123021
+  build: 25051422
   type: Public
-updateCheckpoint: 52
+updateCheckpoint: 57
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 viewConfig:
   simulation:

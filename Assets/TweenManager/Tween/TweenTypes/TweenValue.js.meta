@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> 9f6385b6-d651-4507-a878-215885269570
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     JavaScriptAsset: !<own> 8451682f-6b50-42de-b515-340cca659a09
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings/9c3031bc-2cd7-4b4a-81d3-c087867ff7f1>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/9c3031bc-2cd7-4b4a-81d3-c087867ff7f1> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/8451682f-6b50-42de-b515-340cca659a09>
   SvgIcon: ""
@@ -21,7 +18,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ComponentUid: 3319605f-adad-468e-9b43-6c671f11ca04
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -59,8 +56,7 @@
     vfxAsset: false
     vfxComponent: false
     vfxScriptName: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   DefaultScriptInputs:
     - tweenName: ""
       playAutomatically: true
@@ -96,5 +92,4 @@
       easingFunction: Quadratic
       easingType: Out
   ScriptTypes:
-    -
-      {}
+    - {}

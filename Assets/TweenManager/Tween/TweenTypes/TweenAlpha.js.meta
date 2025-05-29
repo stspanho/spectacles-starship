@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> dd1b9708-bafd-4b85-a2d0-18c27f793481
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     JavaScriptAsset: !<own> 2b140a56-ab46-4795-8ef0-3c6eaf9a2ee8
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings/77573d69-d92b-44f1-8449-fde24e844569>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/77573d69-d92b-44f1-8449-fde24e844569> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/2b140a56-ab46-4795-8ef0-3c6eaf9a2ee8>
   SvgIcon: ""
@@ -21,7 +18,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ComponentUid: 0a29b9c3-c615-4291-b0ce-2eae67e533b1
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -42,8 +39,7 @@
     time: false
     to: false
     tweenName: false
-  ScriptTypesHidden:
-    {}
+  ScriptTypesHidden: {}
   DefaultScriptInputs:
     - sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       tweenName: ""
@@ -62,5 +58,4 @@
       easingFunction: Quadratic
       easingType: Out
   ScriptTypes:
-    -
-      {}
+    - {}

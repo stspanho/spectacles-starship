@@ -5,14 +5,11 @@
   PrimaryAsset: !<reference> 1a684ba7-ef70-4395-aa5f-0e89527008ed
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
+  ExtraData: {}
   AssetDataMap:
     TypeScriptAsset: !<own> bbb11fb8-7a80-4e4d-b47e-b5b02abf64c9
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings/a4d55d9f-120c-43e8-9140-965638bb1a1e>
-    {}
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/a4d55d9f-120c-43e8-9140-965638bb1a1e> {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/bbb11fb8-7a80-4e4d-b47e-b5b02abf64c9>
   SvgIcon: ""
@@ -21,24 +18,25 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ComponentUid: 8c41c617-dc7d-4301-bb99-04fc5ec81e2a
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    instruction: false
+    lookAroundInstruction: false
     markerTrackingComponent: false
-    objectWithTweens: false
-    rocket: false
-  ScriptTypesHidden:
-    {}
+    repositionButton: false
+  ScriptTypesHidden: {}
   DefaultScriptInputs:
     - markerTrackingComponent: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
-      rocket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      objectWithTweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      instruction: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lookAroundInstruction: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      repositionButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    -
-      {}
+    - {}
   InputLines:
     - // @input Component.MarkerTrackingComponent markerTrackingComponent
-    - // @input SceneObject rocket
-    - // @input SceneObject objectWithTweens
+    - // @input SceneObject instruction
+    - // @input SceneObject lookAroundInstruction
+    - // @input PinchButton repositionButton

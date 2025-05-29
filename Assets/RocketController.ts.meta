@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/560d4f82-c912-4307-a668-2626f4e31aad>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cf98757e-7aff-44ba-994b-a8d9ff2db826
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cf98757e-7aff-44ba-994b-a8d9ff2db826
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6df14bb6-621e-4cd1-b116-a33465081f17
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/8a1e07db-8e75-42e6-bf81-d0d7ea611dab> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6df14bb6-621e-4cd1-b116-a33465081f17>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 41008229-f572-4d51-83c1-770232a9edd8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    boosterAudio: false
+    boosterFire: false
+    explosionAnimation: false
+    explosionAudio: false
+    explosionObject: false
+    handle1: false
+    handle2: false
+    launchButton: false
+    leftArm: false
+    pinchingInstruction: false
+    rightArm: false
+    rocketTweens: false
+  ScriptTypesHidden: {}
+  DefaultScriptInputs:
+    - boosterFire: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handle1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handle2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rocketTweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      explosionAnimation: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      explosionObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      launchButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      rightArm: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftArm: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchingInstruction: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boosterAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      explosionAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    - {}
+  InputLines:
+    - // @input SceneObject boosterFire
+    - // @input SceneObject handle1
+    - // @input SceneObject handle2
+    - // @input SceneObject rocketTweens
+    - // @input Asset.Material explosionAnimation
+    - // @input SceneObject explosionObject
+    - // @input PinchButton launchButton
+    - // @input SceneObject rightArm
+    - // @input SceneObject leftArm
+    - // @input SceneObject pinchingInstruction
+    - // @input Component.AudioComponent boosterAudio
+    - // @input Component.AudioComponent explosionAudio

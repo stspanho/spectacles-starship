@@ -184,9 +184,9 @@
     Meshes/Object_9: !<reference> 2cdef7aa-62d5-4a6f-8038-1ad3400a49ec
     Scene: !<reference> d8de3249-2ced-4784-8a70-371b37b7f663
     Textures/texture: !<reference> 30701ea9-52b8-46c2-9ade-aadbcf55424f
-    Textures/texture 3: !<reference> ad60a0ea-a8f7-4593-b125-611c3266532a
-    Textures/texture 5: !<reference> 0af5e223-4b6e-44db-8bb3-537371d40e8e
-    Textures/texture 7: !<reference> 163918d2-43cb-4703-ab3f-ef159b1f3eab
+    Textures/texture 4: !<reference> 27678377-f202-4537-8197-84788b1744f4
+    Textures/texture 6: !<reference> ae7eb36a-4afb-49f5-acae-a4489199c6c0
+    Textures/texture 8: !<reference> b7f40961-4109-4bdb-be98-ec0a68276806
     Textures/texture1: !<reference> 0affb686-3555-4506-ba94-7600dceb63b6
     a8e664386f66f624: !<reference> efd40673-5d0a-4101-9fd1-65e695f30234
     a924ace69c1d317b: !<reference> 2eb070c1-a509-449e-a033-e30329dc1a8e
@@ -236,7 +236,7 @@
     Scene: !<own> 6ef66499-9836-4bba-8260-426b145a319c
   DependentFiles:
     []
-  ImporterSettings: !<GltfImporterSettings/7918efd7-ecda-4c70-b7a5-9f860bafb4fe>
+  ImporterSettings: !<GltfImporterSettings>
     UseLegacyImporter: false
     WithMaterials: true
     NamingConvention: ByCategorySanitize
@@ -248,14 +248,14 @@
     ImportMorphTargetAnimation: true
     ConvertMetersToCentimeters: true
     RegenerateTangents: false
-  CompressionSettings: !<ComplexCompressionSettings/6c49ad85-7c36-4891-b7fc-432c37230bbd>
+  CompressionSettings: !<ComplexCompressionSettings>
     Presets:
-      None Compression: !<SingleCompressionSettings/2b6929b3-b5d7-4a9b-8fcc-4ff45a3dd084>
+      None Compression: !<SingleCompressionSettings>
         CompressorName: None
         CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-      Performance Compression: !<SingleCompressionSettings/d777a011-abb1-43be-9fa7-5c0b1f43f08f>
+      Performance Compression: !<SingleCompressionSettings>
         CompressorName: Performance
-        CompressionSettings: !<TextureCompressionSettings/1cdb8692-a8eb-4b45-b96f-a7597d8a1272>
+        CompressionSettings: !<TextureCompressionSettings>
           Level: Medium
     ExtensionMappings:
       mesh: None Compression
